@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/registrar.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="icon" href="Img/logo uno.jpg">
+  <title>Registrar</title>
+</head>
+
+<body>
+
+  <header>
+    <img src="Img/logo uno.jpg" alt="logoUno">
+  </header>
+
+  <div class="main-block">
+    <h1>Registrar Usuarios</h1>
+
+    <form>
+      <input type="text" name="name" id="name" placeholder="Nombre" required />
+      <input type="text" name="name" id="surname" placeholder="Apellido" />
+      <input type="text" name="email" id="email" placeholder="Email" required />
+      <input type="password" name="name" id="password" placeholder="Password" required />
+      <div class="btn-block">
+        <button onclick="registrarUsuarios()" type="submit">Registrar</button>
+      </div>
+      <a href="usuarios.html">Ver usuarios</a>
+    </form>
+  </div>
+
+  <footer class="footer-basic">
+    <div class="social"><a href="https://github.com/Fede-Morales" target="_blank"><i class="icon ion-social-github"></i>
+        </a><a href="https://www.linkedin.com/in/federico-morales-r/" target="_blank"><i class="icon ion-social-linkedin"></i></a>
+    </div>
+    <p class="copyright">Universidad Nacional del Oeste 2023 - Interfaces de Usuarios y Tecnologias Web <br> Morales Federico</p>
+  </footer>
+
+
+  <script src="JS/registrar.js"></script>
+
+</body>
+
+</html>

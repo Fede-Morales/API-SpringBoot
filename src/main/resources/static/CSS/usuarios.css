@@ -1,0 +1,165 @@
+.body {
+   margin-top: 7%;
+}
+
+header {
+   display: flex;
+}
+
+img {
+   margin-left: 5px;
+   margin-top: 5px;
+}
+
+.tabla {
+   border: 1px solid #999;
+   text-align: left;
+   border-collapse: collapse;
+}
+
+.container {
+   box-shadow: 1px 2px 5px rgba(0, 0, 0, .31);
+   background: #ebebeb;
+}
+
+th,
+td {
+   border-bottom: 1px solid #999;
+   width: 35%;
+   padding: 0.3em;
+   font-family: Roboto, Arial, sans-serif;
+   font-size: 20px;
+   color: #666;
+}
+
+.butonEliminar {
+   background-color: #f44336;
+   color: white;
+   padding: 5px 0px;
+   text-decoration: none;
+   text-align: center;
+   display: inline-block;
+   font-size: 10px;
+   transition-duration: 0.4s;
+   border: 2px solid #63110b;
+   width: 100px;
+}
+
+.butonEliminar:hover {
+   background-color: #63110b;
+}
+
+.butonEditar {
+   background-color: #2deb4d;
+   color: white;
+   padding: 5px 0px;
+   text-decoration: none;
+   text-align: center;
+   display: inline-block;
+   font-size: 10px;
+   transition-duration: 0.4s;
+   border: 2px solid #0b6832;
+   width: 100px;
+   margin-left: -225px;
+}
+
+.butonEditar:hover {
+   background-color: #0b6832;
+}
+
+.butonCrear {
+   background-color: #1c87c9;
+   color: white;
+   text-decoration: none;
+   text-align: center;
+   display: inline-block;
+   font-size: 25px;
+   transition-duration: 0.4s;
+   border: 2px solid #0e1577;
+   border-radius: 20%;
+   width: 100px;
+   height: 30px;
+   margin-left: 750px;
+   margin-top: 10px;
+}
+
+.butonCrear:hover {
+   background-color: #0e1577;
+}
+
+.footer-basic {
+   padding: 40px 0;
+   background-color: #ffffff;
+   color: #4b4c4d;
+}
+
+.footer-basic .social {
+   text-align: center;
+   padding-bottom: 25px;
+}
+
+.footer-basic .social>a {
+   font-size: 24px;
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   display: inline-block;
+   text-align: center;
+   border-radius: 50%;
+   border: 1px solid #ccc;
+   margin: 0 8px;
+   color: inherit;
+   opacity: 0.75;
+}
+
+.footer-basic .social>a:hover {
+   opacity: 0.9;
+}
+
+.footer-basic .copyright {
+   margin-top: 15px;
+   text-align: center;
+   font-size: 13px;
+   color: #aaa;
+   margin-bottom: 0;
+}
+
+.butonWlcm{
+   background-color: #1c87c9;
+   color: white;
+   text-decoration: none;
+   text-align: center;
+      
+   font-size: 25px;
+   transition-duration: 0.4s;
+   border: 2px solid #0e1577;
+   border-radius: 40%;
+   width: 140px;
+   height: 30px;
+   margin-left: 55%;
+   margin-top: 10px;
+   overflow: hidden;
+}
+
+.butonWlcm:hover::after{
+   top:0px;
+}
+.butonWclm::before{
+   background-color: #0e1577;
+   content: "";
+}
+
+.butonWlcm::after{
+   content: "CerrarSesion";
+   position: relative;
+   background-color: #1c87c9;
+   text-align: left;
+   justify-content: center;
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+   top: -80px;
+   right: 130px;;
+   z-index: 1;
+   transition: .0s ease-in-out;
+}

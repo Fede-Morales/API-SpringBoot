@@ -1,0 +1,105 @@
+h1{
+  margin-left: 40%;
+}
+.body{
+    justify-content: center;
+    height: 70%;
+    width: 40%;
+    margin:auto;
+}
+form {
+    text-align: center;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 300;
+    color: #666;
+    border: solid 1px #ccc;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .31);
+    background: #ebebeb;
+    border-radius: 5px;
+    margin-top: 10%;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background: #1c87c9;
+    color: white;
+    padding: 14px 0;
+    border: none;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+.buttonCrear{
+    color:#aaa;
+    margin-left: 40%;
+    text-decoration: none;
+}
+.formcontainer {
+    text-align: left;
+    margin: 24px 50px 12px;
+    font-weight: 300;
+    padding: 5%;
+}
+
+.container {
+    padding: 16px 0;
+    text-align: left;
+}
+
+span.password {
+    float: right;
+    padding-top: 0;
+    padding-right: 15px;
+}
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
